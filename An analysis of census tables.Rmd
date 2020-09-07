@@ -1,0 +1,136 @@
+---
+title: "An Analysis of Census Tables"
+author: |
+  | Saikat Roy
+  | Sem 1
+  | Roll: IIPS/MBD-2020-22/28
+  | Dept: MBD
+date: "28/08/2020"
+output:
+  pdf_document: default
+  word_document: default
+header-includes:
+- \usepackage{setspace}\onehalfspacing
+- \usepackage{float}
+fontsize: 11pt
+---
+
+## A-2 Decadal Variation in Population Since 1901
+
+This table provides data on the population of various states of India conducted during the census of India from 1901 to 2011. The spatial granularity of the data is state-wise and a total for the whole country of India is also given. There is data on absolute and percentage growth in total, male and female population of each state as well as for India. The major data columns are given as follows:
+
+1. _State Code_: The state codes are unique to each state and serve as identifiers, for e.g., 01 for Jammu and Kashmir and 03 for Punjab.
+2. _India/State/Union territory_: These are the names of the states or UTs or country for which data is provided.
+3. _Census Year_: This specifies the census year, from 1901 to 2011, in ten year intervals, for which data is available.
+4. _Persons_: This gives the absolute population values as reported by the census in a particular year at a particular state/UT/India.
+5. _Variation since the preceding census_: This provides the value of increase in population as compared to the previous census year.
+    + _Absolute_: This provides the absolute value of increase in population as compared to the previous census year.
+    + _Percentage_: This provides the percentage increase in population with respect to the previous census year.
+6. _Males_: This provides the total number of males in India/ states/ UTs as enumerated in the census of the corresponding years.
+7. _Females_: This provides the total number of females in India/ states/ UTs as enumerated in the census of the corresponding years.
+
+**Administrative Level of the Data Used**: The table has used data at the country level and state/ UT levels.
+
+**Problem with the Data**: Census was not conducted at several places at different time-points like Jammu and Kashmir in 1991. Interpolation has been used, which is not a true enumeration and is prone to error at those places. Census was conducted first in Arunachal Pradesh in 1961 and data are not available for the state prior to that.
+
+**Rates and Ratios that can be calculated**: The following rates and ratios can be calculated from the given data in the table:
+
+  * Sex- Ratio: At each census year, the sex ratio of India/ state/ UTs may be calculated from the given data..
+  * Decadal Growth Rate: Decadal growth rate may be calculated from the available data for every 10 year period, starting from 1901-1911 to 2001-2011.
+
+## C-20  Disabled Population by type of Disability, Age and Sex
+
+This table contains the data on disabled population as enumerated in the census of India, 2011.
+
+1. _State Code_: The state codes are unique to each state and serve as identifiers, for e.g., 01 for Jammu and Kashmir and 03 for Punjab.
+2. _Area name_: These are the names of the states or UTs or country for which data is provided.
+3. _Total/ Rural/ Urban_: This gives the type of the place of residence of the disabled individuals, i.e., rural or urban. The totals are also mentioned.
+4. _Age-group_: This gives the five-year age groups according to which the disabled population have been classified.
+5. _Total number of disabled persons_: The total number of disabled persons are mentioned here according to their age group and sex.
+6. _Category of disability_: There are several columns in the table, classifying the disabled population into their types of disability, like in seeing, speech, in hearing, etc. They have further been classified according to their sex and age groups. However, totals are also provided.
+
+**Administrative Level of the Data Used**: The table has used data at the country level and state/ UT levels. The data also is specified for urban/ rural regions.
+
+**Problem with Data**: Number of disabled persons within each cohort cannot be obtained from the data. Also, age is not stated for some disabled persons.
+
+**Rates and Ratios that can be calculated**:
+
+  * Ratio of disabled persons in rural and urban areas to the total population can each be calculated from the tabulated data. Also, total ratio of disabled population may be calculated.
+  * Ratio of disabled males to females may be calculated.
+  * Ratio contribution of each age-group to total disabled population of each state/ UT or India may be calculated.
+
+
+## C-1: Population By Religious Community – 2011
+
+This table provides the data on the population of different religious communities in the country and in each state or Union territory. The following columns are mentioned in the table.
+
+1. _State Code_: A code is assigned to the country/ each state/ UT as identifiers.
+2. _District Code_: A code to identify each district of India is assigned.
+3. _Tehsil Code_: A code to each tehsil of India is assigned as identifiers.
+4. _Town Code_: A code is assigned to each town of India as identifiers.
+5. _Area Name_: This column states the name of the state/ UT or India.
+6. _Total/Rural/Urban_: This mentions whether the data belongs to the total, rural or urban areas of India of the
+particular state.
+7. _Religious Communities_: This column specifies the religions in India like Hinduism, Islam, Christianity, Buddhism, Jainism, etc. Each of these divisions is again segregated into males, females and total. _Religion not stated_ category is also included here.
+
+**Administrative Level of the Data Used**: The table has published data at the country level and the state level.
+
+**Problem with the data**: The table does not include data on atheists. Only 'religion not stated' category is included.
+
+**Rates and Ratios that can be calculated**:
+
+  * _Ratio of population by religion_: For a state A, we may calculate the ratio of population of a particular religion to that of total population.
+  
+  * _Sex-ratio by religion_: Sex-ratio for every religion may be calculated here.
+
+
+## C-6: Ever Married And Currently Married Population By Age At Marriage, Duration Of Marriage And Educational Level
+
+This table contains the data on the educational level, age at marriage, number of ever married persons and duration of
+marriage of currently married persons of the country and different states. The major data columns are as follows:
+
+1. _State Code_: A unique code has been assigned to each state of India.
+2. _District Code_: A unique code to each district of India has been assigned.
+3. _Area Name_: This mentions the name of the country (India) or each state.
+4. _Total/Rural/Urban_: States whether the data belongs to the total /rural/urban areas of India or
+to each state.
+5. _Education Level_: This classifies the educational level into several ordered groups like illiterate, literate, literate but below primary,
+primary but below middle, middle but below matric or secondary, matric or secondary but below
+graduate, graduate and above of the married persons.
+6. _Age at Marriage_: The age at which the people got married have been mentioned here.
+7. _Number of ever married persons_: This column specifies the number of persons who have their marital
+status as married. It is classified into males and females which give the number of males and the number of
+females who are married respectively.
+8. _Duration of marriage of currently married persons_: Provides the data on how many years the couple have been married. These are 5 year class intervals.
+
+**Administrative Level of the Data Used**: The table has specified the data at the country level and state/UT level.
+
+**Problem with data**: There are people belonging to the category _age not stated_. Thus, they cannot be classified on the basis of their age. Also, many have not specified their duration of marriage and hence, have been classified under _duration not known_.
+
+**Rates and Ratios that can be calculated**: 
+  
+  * _Ratio of married males and females for different age groups_: For each different state/ UT/ India, this may be calculated as:
+  $$\dfrac{No.~ of ~married~ males~ of~ an~ age ~group}{No.~ of~ married~ females~ of~ that~ age-group}$$
+  
+
+## H-1 Census Houses and The Uses To Which They Are Put
+
+This table has data on census houses in India and states/ UTs and also classifies those on the basis of how they are put to use. The major data columns are as follows:
+
+1. _State Code_: This contains the state/ UT codes which are assigned as identifiers.
+2. _District Code_: A code to identify each district of India is assigned.
+3. _Tehsil Code_: A code to each tehsil of India is assigned as identifiers.
+4. _Town Code_: A code is assigned to each town of India as identifiers.
+5. _Area Name_: This column states the name of the state/ UT or India.
+6. _Total/ Rural/ Urban_: This column mentions the area category - total, rural or urban.
+7. _Total number of census houses_: This specifies the total number of houses enumerated in the census of 2011.
+8. _Occupied Census Houses used as_: The other columns specify the total number of vacant and occupied houses and what the houses are used for, like residential, shop, school/ college, hospital, factory etc. purposes. Also, number of occupied locked census houses is provided.
+
+**Administrative Level of the Data Used**: The table has specified the data at the country level and state/UT level.
+
+**Problems with the data**: There is a column classifying the occupied houses as _other non-residential use_ which is a vague classification and no further details are available pertaining to that section of residential places.
+
+**Rates and ratios that can be calculated**: 
+
+  * Ratio of occupied houses to total number of houses in the country/ state/ UT may be calculated.
+  * Ratio of houses used for each category to the total number of houses may be found out from the given data.
